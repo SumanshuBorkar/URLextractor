@@ -20,7 +20,7 @@ function App() {
     setResults([]);
 
     try {
-      const res = await axios.post('https://ur-lextractor-naxe.vercel.app/api/scrape', { url, query });
+      const res = await axios.post('https://urlextractor-6qhq.onrender.com/api/scrape', { url, query });
       const matches = res.data.results;
       console.log(matches, "this is the response")
 
