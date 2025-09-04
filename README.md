@@ -74,9 +74,6 @@ You will need to configure environment variables for both the backend and the fr
 PORT=3000
 LOG_LEVEL=debug
 
-MILVUS_URI="https://in03-af248adc71b04dd.serverless.gcp-us-west1.cloud.zilliz.com"
-MILVUS_USERNAME="db_af248adc71b04dd"
-MILVUS_PASSWORD="Ko5)udEK<suKmJ+d"
 
 # Search configuration
 USE_VECTOR_SEARCH=false
